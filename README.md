@@ -4,7 +4,7 @@ Projeto acadêmico desenvolvido para a disciplina de Testes de software
 
 ## Sobre o Projeto
 
-Tem o objetivo de testar cenários de teste encontrados no site da [Wikipedia](https://pt.wikipedia.org/), e propor uma otimização para o mesmo (Separados no arquivo 1 e 2 
+Tem o objetivo de testar cenários de teste encontrados no site da [Wikipedia](https://pt.wikipedia.org/), e propor uma otimização para o mesmo (Separados no arquivo 1 e 2)
 
 **Cenários utilizados:**
 1.  ✅ **Busca por algum conteúdo:** Validar se a URL é alterada ao fazer a pesquisa.
@@ -20,12 +20,7 @@ Tem o objetivo de testar cenários de teste encontrados no site da [Wikipedia](h
 ## Como rodar o projeto
 
 ### Pré-requisitos
-Você precisa ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
-
-##  Como rodar o projeto
-
-### Pré-requisitos
-Possuir o [Node.js](https://nodejs.org/) instalado em sua máquina.
+Possuir o [Node.js](https://nodejs.org/) instalado na máquina.
 
 ### Passo a Passo
 
@@ -36,3 +31,8 @@ Possuir o [Node.js](https://nodejs.org/) instalado em sua máquina.
    Execute o comando abaixo para que o Node baixe todas as configurações necessárias
    ```bash
    npm install
+   
+3. **Inicie a aplicação:**
+   Execute o comando abaixo para iniciar a aplicação
+   ```
+   npx cypress open
